@@ -1,0 +1,110 @@
+.App {
+  background-color:lightgray;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Some CSS styling */
+.canvas {
+    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.canvas {
+    background-color: #fff;
+}
+
+
+
+/* Element | https://localhost:44385/play */
+
+.gamecode {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    background-color: oldlace;
+    color: black;
+    padding: 10px 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.142em;
+    width: 30%;
+    min-width: 100px;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.player-name {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background-color: oldlace;
+    color: black;
+    padding: 10px 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    width: 30%;
+    min-width: 100px;
+    border-radius: 0px 0px 50px 0px;
+}
+
+.player-word {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+/* Inline #1 | https://localhost:44385/play */
+
+.player-name {
+    border-radius: 0px 0px 50px 0px;
+}
